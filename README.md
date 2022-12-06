@@ -18,3 +18,8 @@ gcc -fopenmp -o obj iter.c
 export OMP_NUM_THREADS=2
 ./obj
 ```
+fibonacci 
+```
+gcc -fopenmp -o obj fib.c
+./obj
+```
