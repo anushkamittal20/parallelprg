@@ -9,4 +9,3 @@ pi
 gcc -fopenmp -o obj pi.c -lm
 export OMP_NUM_THREADS=1 
 ./obj
-
