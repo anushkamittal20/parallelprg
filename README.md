@@ -1,7 +1,11 @@
-# parallelprg
+# Parallel programs
 Covers all programs and description for each program for parallel programming lab internals
 
-Mergesort execution
+
+## Executions
+
+
+mergesort 
 ```
 gcc -fopenmp -o obj mergesort.c
 ./obj
@@ -21,5 +25,20 @@ export OMP_NUM_THREADS=2
 fibonacci 
 ```
 gcc -fopenmp -o obj fib.c
+./obj
+```
+prime
+```
+gcc -fopenmp -o obj prime.c
+./obj
+```
+vector addition
+```
+gcc -fopenmp -o obj vec.c
+./obj
+```
+sum of 100 numbers
+```
+gcc -fopenmp -o obj sum.c
 ./obj
 ```
